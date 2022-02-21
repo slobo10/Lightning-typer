@@ -1,6 +1,9 @@
 var game = {
     gameArea: 'gameArea',
     index: 0,
+    start: function () {
+        document.getElementById(game.gameArea).addEventListener('keydown', game.keyEventHandeler, false);
+    },
     update: function () {
 
     },
@@ -16,4 +19,3 @@ var game = {
         game.keyEvent(e);
     },
 };
-document.getElementById(game.gameArea).addEventListener('keydown', game.keyEventHandeler, false);
