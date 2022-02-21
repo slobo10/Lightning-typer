@@ -13,9 +13,9 @@ var game = {
     mainInterval: function () { game.update() },
     keyEvent: function (e) {
         var key = e.keyCode;
-        if (key == 8) {
+        if (key == 8 && game.index > 0) {
             game.index--;
-        } else {
+        } else if (key != 8 && game.index < game.fakeCode.length) {
             game.index++;
         }
     },
