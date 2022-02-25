@@ -3,6 +3,7 @@
 }
 #gameArea{
     background-color:black;
+    color:darkgreen;
     width:1200px;
     height:750px;
 }
