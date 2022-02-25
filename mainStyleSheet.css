@@ -3,6 +3,7 @@
 }
 #gameArea{
     border-color:gray;
+    border-width:3px;
     background-color:black;
     color:darkgreen;
     width:1200px;
