@@ -2,6 +2,7 @@
     text-align:center;
 }
 #gameArea{
+    border-color:gray;
     background-color:black;
     color:darkgreen;
     width:1200px;
