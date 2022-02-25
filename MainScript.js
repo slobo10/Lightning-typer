@@ -1,8 +1,8 @@
 var game = {
+    fakeCode: '',
     gameArea: 'gameArea',
     index: 0,
-    updateRate: 50,
-    fakeCode: '',
+    updateRate: 10,
     start: function () {
         document.getElementById(game.gameArea).addEventListener('keydown', game.keyEventHandeler, false);
         setInterval(game.mainInterval, game.updateRate);

@@ -1,7 +1,12 @@
 ﻿body{
+    background-color:#2d2d30;
     text-align:center;
 }
 #gameArea{
-    width:1200px;
+    background-color:#1e1e1e;
+    border-color:#3e3e42;
+    border-width:3px;
+    color:darkgreen;
     height:750px;
+    width:1200px;
 }
