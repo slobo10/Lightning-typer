@@ -1,2 +1,2 @@
 # Lightning-typer
-This app will even let babys be able to code
+This app will even let babies be able to code
