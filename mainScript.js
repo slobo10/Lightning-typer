@@ -29,4 +29,5 @@ var game = {
     game.keyEvent(e);
   },
 };
-game.start();
+
+window.onload = game.start;
