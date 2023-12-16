@@ -13,12 +13,10 @@ let game = {
       game.index
     );
   },
-  keyEvent: function (e) {
-    let key = e.keyCode;
-
-    if (key == 8 && game.index > 0) {
+  keyEvent: function ({ keyCode }) {
+    if (keyCode == 8 && game.index > 0) {
       game.index--;
-    } else if (key != 8 && game.index < game.fakeCode.length) {
+    } else if (keyCode != 8 && game.index < game.fakeCode.length) {
       game.index++;
     }
 
