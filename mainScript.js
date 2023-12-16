@@ -6,7 +6,7 @@ var game = {
   start: function () {
     document
       .getElementById(game.gameArea)
-      .addEventListener("keydown", game.keyEventHandeler, false);
+      .addEventListener("keydown", game.keyEventHandler, false);
     setInterval(game.mainInterval, game.updateRate);
   },
   update: function () {
@@ -26,7 +26,7 @@ var game = {
       game.index++;
     }
   },
-  keyEventHandeler: function (e) {
+  keyEventHandler: function (e) {
     game.keyEvent(e);
   },
 };
